@@ -35,3 +35,31 @@ My configuration for nvim, you probably don't want this as is very tailored to m
 ```bash
 stow nvim
 ```
+
+### zsh
+
+```bash
+stow zsh
+```
+
+#### oh-my-zsh
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+#### oh-my-posh
+
+I use oh-my-posh to make my zsh terminal look nice with a modified version of [takuya theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/takuya.omp.json), so you'll have to install it:
+
+```bash
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
+```
+
+#### NVM
+
+Handle different versions of NPM
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+```
