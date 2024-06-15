@@ -63,3 +63,17 @@ Handle different versions of NPM
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
+
+### tmux
+
+I'm a tmux noob so I have a very basic configuration, mostly based on [typecrafts' config videos](https://www.youtube.com/@typecraft_dev)
+
+```bash
+stow tmux
+```
+
+You'll also need to install TPM to install plugins before running tmux:
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
