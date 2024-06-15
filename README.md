@@ -77,3 +77,15 @@ You'll also need to install TPM to install plugins before running tmux:
 ```bash
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
+
+### kitty
+
+I use [kitty](https://sw.kovidgoyal.net/kitty/) as my terminal emulator. To install it run:
+
+```bash
+curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+```
+
+```bash
+stow kitty
+```
