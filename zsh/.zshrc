@@ -108,11 +108,4 @@ export EDITOR='nvim'
 ## Set JAVA_HOME to Amazon Corretto Java 17
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-17.jdk/Contents/Home
 
-# Tmuxifier config
-export PATH="$HOME/.tmuxifier/bin:$PATH"
-eval "$(tmuxifier init -)"
-
-# Initialize oh-my-posh
-if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  eval "$(oh-my-posh init zsh --config ~/.takuya-tweaked.omp.json)"
-fi
+eval "$(starship init zsh)"

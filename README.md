@@ -48,12 +48,13 @@ stow zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-#### oh-my-posh
+#### Starship
 
-I use oh-my-posh to make my zsh terminal look nice with a modified version of [takuya theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/takuya.omp.json), so you'll have to install it:
+I use [Starship](https://starship.rs/) as my shell prompt so you'll need to install it as well:
 
 ```bash
-brew install jandedobbeleer/oh-my-posh/oh-my-posh
+brew install starship
+stow starship
 ```
 
 #### NVM
@@ -64,28 +65,11 @@ Handle different versions of NPM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
 
-### tmux
-
-I'm a tmux noob so I have a very basic configuration, mostly based on [typecrafts' config videos](https://www.youtube.com/@typecraft_dev)
-
-```bash
-stow tmux
-```
-
-You'll also need to install TPM to install plugins before running tmux:
-
-```bash
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-```
-
 ### kitty
 
 I use [kitty](https://sw.kovidgoyal.net/kitty/) as my terminal emulator. To install it run:
 
 ```bash
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
-```
-
-```bash
 stow kitty
 ```
