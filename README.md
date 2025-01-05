@@ -73,3 +73,12 @@ I use [kitty](https://sw.kovidgoyal.net/kitty/) as my terminal emulator. To inst
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 stow kitty
 ```
+
+### Ghostty
+
+I'm trying out [Ghostty](https://ghostty.org/), let's see if it'll replace kitty as my terminal.
+
+```bash
+brew install --cask ghostty
+stow ghostty
+```
