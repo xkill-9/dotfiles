@@ -196,5 +196,10 @@ run = 'move-node-to-workspace S'
 if.app-id = 'us.zoom.xos'
 run = 'move-node-to-workspace Z'
 
+[[on-window-detected]]
+if.app-id = 'inc.wonder.roam'
+run = 'move-node-to-workspace R'
+
 [workspace-to-monitor-force-assignment]
 Z = 'secondary' # Move Zoom to the Mac display
+R = 'secondary' # Move Roam to the Mac display
